@@ -16,7 +16,8 @@ public class Overloading : MonoBehaviour
     }
     public void ChangeYear(ref int currentAge)
     {
-        currentAge++;
+        
+        currentAge = currentAge + 1; //du kan også vælge at skrive currentAge++; i stedet for 
     }
 
     public void ChangeYear(ref int currentAge,int change)
